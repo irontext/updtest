@@ -1,0 +1,19 @@
+{
+    "addon_version": "10.0.0",
+    "fix_version": 1,
+    "files": {
+
+        "1": [
+            "servers",
+            "mixdrop.json"
+        ],
+        "2": [
+            "channels",
+            "seriehd.py"
+        ],
+        "2": [
+            "channels",
+            "seriehd.json"
+        ]
+    }
+}
