@@ -1,0 +1,49 @@
+
+{
+  "id": "seriehd",
+  "name": "Serie HD",
+  "active": true,
+  "adult": false,
+  "language": ["ita"],
+  "thumbnail": "serietvu.png",
+  "banner": "serietvu.png",
+  "categories": [
+    "tvshow"
+  ],
+	"settings": [
+		{
+		  "id": "include_in_global_search",
+		  "type": "bool",
+		  "label": "Incluci nella Ricerca Globale",
+		  "default": true,
+		  "enabled": true,
+		  "visible": true
+		},
+
+		{
+		  "id": "include_in_newest_episodes",
+		  "type": "bool",
+		  "label": "Includi in novità - Ultimi Episodi Serie TV",
+		  "default": false,
+		  "enabled": true,
+		  "visible": true
+		},
+
+		{
+		  "id": "include_in_newest_series",
+		  "type": "bool",
+		  "label": "Includi in novità - Serie TV",
+		  "default": false,
+		  "enabled": true,
+		  "visible": true
+		},
+		{
+          "id": "modo_grafico",
+          "type": "bool",
+          "label": "Ricerca Info Extra",
+          "default": false,
+          "enabled": true,
+          "visible": true
+		}
+	  ]
+}
